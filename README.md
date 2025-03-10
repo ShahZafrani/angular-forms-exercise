@@ -1,8 +1,10 @@
 # My approach
 
+**See hosted demo at: https://angular-forms-zain.pages.dev/**
+
 While it was not stated in my instructions to avoid AI code generation tools, I understand that the purpose of this exercise is to get signals from a prospective employee into how they work, and to establish a baseline effectiveness in a given technology. I have chosen not to use any AI tools, and will document my efforts below so as to provide the afforementioned signals. 
 
-- create a new app with angular-cli `ng new cares-exercise`
+- create a new app with angular-cli
 - remove boilerplate, and switch from the templateurl syntax to providing the template directly into each component. This is done because it's a small project and non of the templates will be large. 
 - create a new component for the contact info form with `ng g component`
 - Deciding between a reactive form and a template driven form (https://angular.dev/guide/forms#key-differences)
@@ -10,9 +12,7 @@ While it was not stated in my instructions to avoid AI code generation tools, I 
 - importing modules for reactive form
 - using dependency injection to inject the FormBuilder
 - assigning validators for the required fields, and using the angular built-in email validator
-- just a little bit of styling because it's what makes us civilized. Display:grid and some padding.
-
-
+- just a little bit of styling because it's what makes us civilized. 
 
 # Instructions for the exercise:
 Using Angular:
