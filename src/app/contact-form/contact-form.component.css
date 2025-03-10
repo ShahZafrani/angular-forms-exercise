@@ -1,0 +1,12 @@
+form {
+    display: grid;
+}
+
+label {
+    padding: .5rem;
+}
+
+.error {
+    color: red;
+    padding-top: 0.1rem;
+}

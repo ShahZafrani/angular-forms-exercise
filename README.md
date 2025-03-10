@@ -1,3 +1,42 @@
+# My approach
+
+While it was not stated in my instructions to avoid AI code generation tools, I understand that the purpose of this exercise is to get signals from a prospective employee into how they work, and to establish a baseline effectiveness in a given technology. I have chosen not to use any AI tools, and will document my efforts below so as to provide the afforementioned signals. 
+
+- create a new app with angular-cli `ng new cares-exercise`
+- remove boilerplate, and switch from the templateurl syntax to providing the template directly into each component. This is done because it's a small project and non of the templates will be large. 
+- create a new component for the contact info form with `ng g component`
+- Deciding between a reactive form and a template driven form (https://angular.dev/guide/forms#key-differences)
+    - reactive-forms seem to be the way. They don't rely on 2-way binding, are more performant, and validators can simply be functions instead of relying on directives
+- importing modules for reactive form
+- using dependency injection to inject the FormBuilder
+- assigning validators for the required fields, and using the angular built-in email validator
+- just a little bit of styling because it's what makes us civilized. Display:grid and some padding.
+
+
+
+# Instructions for the exercise:
+Using Angular:
+
+Create a Person Data Entry Form where the user enters a name, phone number, and email, and upon submission, a message confirms the data was saved. The name and email fields must be required and should have a "valid" property indicating that the required field has text entered. 
+
+Business Scenario:
+
+A company needs a Person Entry Form where employees can:
+
+    Enter a person's details: Name, Phone, and Email.
+    Validate the input fields:
+
+        Name and Email are required.
+        Email should be in valid format.
+        Each field component should expose a valid property that reflects its validation state.
+
+    Submit the form and show a "Data Saved" message only if all fields are valid.
+
+
+Auto-generated readme below:
+
+---
+
 # CaresExercise
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.1.
